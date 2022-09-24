@@ -1,0 +1,15 @@
+# General configuration.
+title: Demo project
+description: A demo project
+
+remote_theme: just-the-docs/just-the-docs
+plugins:
+- jekyll-remote-theme
+
+# Do not deploy through GitHub pages.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+
+color_scheme: foo
